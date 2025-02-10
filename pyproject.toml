@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "e-com-product-url-crawler"
+version = "0.1.0"
+description = ""
+authors = ["chandanmaurya0"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.13.3"
+aiohttp = "^3.11.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
